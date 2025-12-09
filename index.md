@@ -4,11 +4,10 @@
 	function initEmbeddedMessaging() {
 		try {
 			embeddedservice_bootstrap.settings.language = 'en_US'; // For example, enter 'en' or 'en-US'
-
 			embeddedservice_bootstrap.init(
 				'00DOg000001wSWS',
-				'Customer_Service_MIAW_Chat',
-				'https://marion--comuat.sandbox.my.site.com/ESWCustomerServiceMIAW1762916111894',
+				'Marion_chat',
+				'https://marion--comuat.sandbox.my.site.com/ESWMarionchat1765244400117',
 				{
 					scrt2URL: 'https://marion--comuat.sandbox.my.salesforce-scrt.com'
 				}
@@ -18,6 +17,6 @@
 		}
 	};
 </script>
-<script type='text/javascript' src='https://marion--comuat.sandbox.my.site.com/ESWCustomerServiceMIAW1762916111894/assets/js/bootstrap.min.js' onload='initEmbeddedMessaging()'></script>
+<script type='text/javascript' src='https://marion--comuat.sandbox.my.site.com/ESWMarionchat1765244400117/assets/js/bootstrap.min.js' onload='initEmbeddedMessaging()'></script>
 </body>
 </html>
