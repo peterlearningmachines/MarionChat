@@ -5,11 +5,11 @@
 		try {
 			embeddedservice_bootstrap.settings.language = 'en'; // For example, enter 'en' or 'en-US'
 			embeddedservice_bootstrap.init(
-				'00DOg000001wSWS',
+				'00D2P0000008aoK',
 				'Marion_chat',
-				'https://marion--comuat.sandbox.my.site.com/ESWMarionchat1765244400117',
+				'https://marion.my.site.com/ESWMarionchat1765496960297',
 				{
-					scrt2URL: 'https://marion--comuat.sandbox.my.salesforce-scrt.com'
+					scrt2URL: 'https://marion.my.my.salesforce-scrt.com'
 				}
 			);
 		} catch (err) {
@@ -17,6 +17,6 @@
 		}
 	};
 </script>
-<script type='text/javascript' src='https://marion--comuat.sandbox.my.site.com/ESWMarionchat1765244400117/assets/js/bootstrap.min.js' onload='initEmbeddedMessaging()'></script>
+<script type='text/javascript' src='https://marion.my.site.com/ESWMarionchat1765496960297/assets/js/bootstrap.min.js' onload='initEmbeddedMessaging()'></script>
 </body>
 </html>
